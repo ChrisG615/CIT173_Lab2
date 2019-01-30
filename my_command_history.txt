@@ -1,0 +1,44 @@
+    1  man screen
+    2  quit
+    3  screen
+    4  exit
+    5  exit
+    6  screen
+    7  exit
+    8  exit
+    9  split
+   10  exit
+   11  sudo apt-get -y update && sudo apt-get -y upgrade
+   12  ls
+   13  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+   14  mkdir ~/CIT173_Lab2
+   15  cat ~/CIT173_Lab2_Files/phonebook1.txt ~/CIT173_Lab2_Files/phonebook2 > ~/CIT173_Lab2/my_phonebook.txt
+   16  cat ~/CIT173_Lab2_Files/phonebook1.txt ~/CIT173_Lab2_Files/phonebook2.txt > ~/CIT173_Lab2/my_phonebook.txt
+   17  man wc
+   18  wc -wlc ~/CIT173_Lab2/my_phonebook.txt
+   19  cat ~/CIT173_Lab2/my_phonebook.txt | less
+   20  cat ~/CIT173_Lab2_Files/phonelisting1.txt ~/CIT173_Lab2_Files/phonelisting2.txt > ~/CIT173_Lab2/my_phonelisting.txt
+   21  tac ~/CIT173_Lab2/my_phonebook.txt  > ~/CIT173_Lab2/my_phonebook_reverse.txt
+   22  clear
+   23  man join
+   24  cat ~/CIT173_Lab2/my_phonebook.txt 
+   25  cat ~/CIT173_Lab2/my_phonelisting.txt 
+   26  join ~/CIT173_Lab2/my_phonebook.txt ~/CIT173_Lab2/my_phonelisting.txt > ~/CIT173_Lab2/my_joined_phonebook.txt
+   27  cat ~/CIT173_Lab2/my_joined_phonebook.txt 
+   28  clear
+   29  man unexpand
+   30  unexpand ~/CIT173_Lab2/my_phonebook > ~/CIT173_Lab2/my_tabbed_phonebook.txt
+   31  man sort
+   32  sort ~/CIT173_Lab2/my_phonebook.txt | less
+   33  sort -id ~/CIT173_Lab2/my_phonebook.txt | less
+   34  man sort
+   35  sort -id ~/CIT173_Lab2/my_phonebook.txt | less
+   36  man sort
+   37  sort -fh ~/CIT173_Lab2/my_phonebook.txt | less
+   38  man sort
+   39  sort ~/CIT173_Lab2/my_phonebook.txt > ~/CIT173_Lab2/my_sorted_phonebook.txt
+   40  man nl
+   41  nl -v 1 ~/CIT173_Lab2/my_phonebook.txt > ~/CIT173_Lab2/my_numbered_phonebook.txt 
+   42  head ~/CIT173_Lab2/my_phonebook.txt  > ~/CIT173_Lab2/my_head_phonebook.txt
+   43  tail ~/CIT173_Lab2/my_phonebook.txt > ~/CIT173_Lab2/my_tail.phonebook.txt
+   44  history > ~/CIT173_Lab2/my_command_history.txt
